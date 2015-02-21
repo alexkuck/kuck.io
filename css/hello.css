@@ -1,0 +1,62 @@
+/* alex's style sheet */
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#f5f3ee;
+}
+
+.container {
+    width: 800px;
+    margin: 3em auto;
+    /*padding: 0 2em;*/
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 2em auto;
+    /*font-family: courier new, courier, monospace;*/
+}
+
+hr {
+    height:1px;
+    border-width:0;
+    color: gray;
+    background-color: gray;
+}
+
+#torii {
+    font-style: normal;
+}
+
+a:link {
+    color: #cc4433;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:visited {
+    color: #cc4433;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color: #cc4433;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a:active {
+    color: #cc4433;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+::selection {
+    background: #bdc3c7;
+}
+
+::-moz-selection {
+    background: #bdc3c7;
+}
